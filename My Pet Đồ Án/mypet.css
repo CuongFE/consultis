@@ -1,0 +1,69 @@
+body {
+    line-height: 1.5;
+    
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/* navtop */
+#navtop {
+    background-color: #343333;
+    color:white;
+    padding: 1% 0;
+}
+#navtop .info a {
+    text-decoration :none;
+    color: #fff;
+}
+.media a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.media i:hover {
+    color:red;
+    
+}
+
+
+
+
+
+/* navbar */
+nav ul li a {
+    color: #252525;
+    font-size: 15px;
+}
+nav ul li {
+    margin-left: 10px;
+}
+
+/* test */
+
+.carousel-indicators li {
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background-color: #f4511e;
+}
+
+    /* we are my pet */
+.weare h2 {
+    
+    font-weight:500;
+    position: relative;
+
+}
+.weare h2::before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    top: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+}

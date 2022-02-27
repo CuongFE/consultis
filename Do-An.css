@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+    
+
+/* nav bar */
+    .navbar {
+        font-family: nav;
+        
+    }
+    nav ul li a:hover {
+        color: red !important;
+    }
+    @font-face {
+        font-family: nav;
+        src: url(Open\ Sans\ Bold.ttf);
+    }
+    .navbar li a {
+        color: #013c74 !important ;
+        font-size: 15px;
+        
+    }
+    .navbar ul li {
+        margin-left:10px;
+    }
+    .navbar-brand span {
+        color: #013c74 !important ;
+    }
+    .navbar-nav li .about {
+        color: #72cb72 !important ;
+    }
+/* bài Home */
+    .navbar-nav .home {
+        color: #5cc35c !important;
+    }
+    /* k1 */
+    .home-k1 {
+        background-color: #707070;
+        padding: 10% 15%;
+        
+    }
+    .home-k2 {
+        
+        
+        z-index: 30px;
+        position:relative;
+        top: -80px;
+        
+        
+    }
+    .fly {
+        overflow: auto;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 10px;
+        padding: 2%;
+        
+        
+        box-shadow: 10px 10px 20px gray;
+        
+        
+       
+    }
+    .expert {
+        text-align: center;
+        
+        float:left;
+        width : 33.33%;
+    }
+    .home-k3 {
+        background-color: #f7f7f7;
+        padding: 5% 15%;
+
+    }
+        .btnnn .btn {
+        background-color: white;
+        width: 150px;
+        border-radius:20px;
+        
+        }
+        .btnnn .btn:hover {
+        background-color: #5cc35c;
+        color: #fff;
+        }
+        .home-k3 h2 {
+            text-align: center;
+            font-weight:500;
+            position: relative;
+
+        }
+        .home-k3 h2::before {
+            content: '';
+            position: absolute;
+            margin: auto;
+            bottom: -10px;
+            background-color: green;
+            height: 2px;
+            box-sizing: border-box;
+            width: 80px;
+            
+        }
+        .home-k3  {
+            text-align: center !important;
+        }
+    /* we are leader */
+    .weare {
+        color:white;
+        background-color: #707070;
+        overflow: auto;
+        padding: 5% 15%;
+        box-sizing:border-box;
+    }
+    .leader, .video {
+        float:left;
+        width:50%;
+    }
+    video {
+        width:100%;
+    }
+    .leader button {
+        color: white;
+    }
+    .leader span i {
+        color:#5cc35c;
+    }
+    .leader p {
+        font-size: 13px;
+    }
+    .leader span {
+        margin-bottom: 3%;
+    }
+    .leader {
+        padding-top: 5%;
+    }
+
+    /* New Lastest */
+    .py-5 .col-md-4:hover {
+        box-shadow: 10px 10px 20px gray;
+        border-radius: 15px;
+        
+    }
+    
+
+    /* requesr a call back */
+    .call-back .request {
+        padding: 4% 2% 4% 15%;
+        background-color: #32618e;
+        color: #fff;
+    }
+    .call-back .table {
+        padding: 4% 15% 4% 4%;
+        background-color: #f7f7f7;
+        margin-bottom: 0;
+    }
+    .form-control {
+        margin-bottom: 2%;
+    }
+
+
+   
+    
+
+    
+
+
+
+
+
+    /* kết thuc bài home */
+
+/* bài about */
+
+    /* khoi Our Team */
+    
+    .ourteam {
+        padding: 6% 15%;
+        background-color: #ebebeb;
+    }
+    .ourteam span {
+        font-family: ourteam;
+    }
+    @font-face {
+        font-family: ourteam;
+        src: url(Open\ Sans\ Regular.ttf);
+    }
+
+    .ourteam h2 {
+        padding-top: 2%;
+        font-family: teamh2;
+    }
+    @font-face {
+        font-family: teamh2;
+        src: url(Open\ Sans\ Bold.ttf);
+    }
+    .ourteam .fa-home {
+        color: #72cb72;
+    }
+
+
+    /* khoi anh */
+    .pic-about {
+        padding-top: 3%;
+    }
+    .img-test-1 {
+        margin-right:1%;
+    }
+    .about-pic {
+        
+        background-color:  #f7f7f7;
+    }
+    .about-pic {
+        overflow: auto;
+        margin-bottom: 3%;
+        background-color:  #f7f7f7;
+    }
+    .about-pic img {
+        height: 180px;
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+    }
+    .about-pic p {
+        padding-top: 2%;
+        float:left;
+        width: 68%;
+    }
+
+    .about-pic a {
+        color: #5cc35c;
+    }
+    .about-pic p {
+        font-family: pic-p;
+        color: #b2b2b2;       
+    }
+    @font-face {
+        font-family: pic-p;
+        src: url(Open\ Sans\ Regular.ttf);
+    }
+    .about-pic b {
+        font-family: b;
+        color: black !important;
+    }
+    @font-face {
+        font-family: b;
+        src: url(Open\ Sans\ Bold.ttf);
+    }
+    .about-pic a {
+        text-decoration: none;
+    }
+
+    /* khoi About-project */
+    .about-proj {
+        padding: 5% 15%;
+    }
+    .about-k3pr {
+        overflow: auto;
+        background-color: #f7f7f7;
+    }
+    .aboutimg {
+        float: left;
+        width: 25%;
+    }
+
+    /* khoi about-let */
+    .about-let {
+        padding: 2% 15%;
+        background-color: #013c74;
+        color: white;
+    }
+    .about-let button {
+        border-radius : 10%;
+    }
+
+
+    /* linh css */ 
+    h5, .fa-fast-backward {
+        color: #013c74 !important;
+    }
+    .fa-fast-forward {
+        color: #7dcf7d !important;
+    }
+    .prj span {
+        height: 2px;
+        width: 40px;
+        background-color:#7dcf7d ;
+    }
+
+
+
+/* footer */
+    .footer-col .mr-2 {
+        width: 30px;
+        height: 30px;
+    }
+    footer {
+        background-color: #252525;
+        padding: 4% 15% !important ;
+    }
+    .footer-col h4 {
+        font-size: 30px;
+        color: #fff;
+        text-transform : capitalize;
+        margin-bottom : 20px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before {
+        content: '';
+        position : absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #56aaff;
+        height: 2px;
+        box-sizing: border-box;
+        width: 80px;
+    }
+    .foote1 a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+    /* quick link */
+    .footer-col ul li a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 300;
+        transition : all 0.3s ease;
+        display: block;
+        line-height: 2 ;
+        
+    }
+    .footer-col ul li a:hover {
+        color: #fff;
+        padding-left: 10px;
+    }
+    
+    
+    .footer-col {
+        overflow: auto;
+    }
+    .left, .right {
+        float: left;
+        width: 50%;
+    }
+    .footer-col ul {
+        list-style: none;
+    }
+    .footer-col a i {
+        transition : all 0.3s ease;
+        
+    }
+
+    .footer-col a i:hover {
+        opacity : 0.7;
+        padding-left: 10px;
+        
+    }
+    
+
+        /* New Lastest */
+    .footer-new {
+        overflow: auto;
+        margin-bottom: 3%;
+        
+    }
+    .footer-new img {
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+    }
+    .footer-new p {
+        color: white;
+        padding-top: 2%;
+        float:left;
+        width: 68%;
+    }
+    .footer-new a {
+        text-decoration : none;
+        color: white;
+    }
+
+        /* social media */
+    .media i {
+        font-size: 50px;
+    
+    }
+    .media .col {
+        margin-bottom: 5%;
+    }
+    .media .insta, .media .ytb {
+        color: red;
+    }
+    .media .ws {
+        color: #3fb947;
+    }
+    .media .twit {
+        color: #56aaff;
+    }
+    .media .col a {
+        transition : all 0.3s ease;        
+	}
+
+/* Bài Service */
+    /* home-services */
+    .navbar-nav li .services {
+        color: #72cb72 !important ;
+    }
+    .home-service {
+        padding: 6% 15%;
+        background-color: #ebebeb;
+    }
+    /* Service icon */
+    #service-icon {
+        padding: 5% 15%;
+    }
+    #service-icon h2 {
+        font-family: sericon;
+        margin-bottom: 3%;
+    }
+
+    @font-face {
+        font-family: sericon;
+        src: url(Open\ Sans\ Bold.ttf);
+    }
+    .ser-icon p {
+        font-size: 5x !important ;
+    }
+    .ser-icon h4, .ser-icon p {
+        font-family: ser;
+    }
+    @font-face {
+        font-family: ser;
+        src: url(Open\ Sans\ Regular.ttf);
+    }
+    #service-icon h2 {
+        font-weight: 500;
+        position:relative;
+
+    }
+    #service-icon h2::before {
+        content: '';
+        position: absolute;
+        text-align: center;
+        bottom: -10px;
+        background-color: green;
+        height: 2px;
+        box-sizing: border-box;
+        width: 80px;
+    }
+
+
+    
+    .ser-icon i {
+        color: green;
+        font-size: 40px;
+        margin-bottom: 3%;
+    }
+    .ser-icon {
+        margin-bottom: 3%;
+    }
+
+    /* service-team */
+    #service-team {
+        background-color: #f7f7f7;
+        padding: 5% 15%;
+    }
+    .img-1 img {
+        border: 10px solid transparent;
+        
+    }
+    .img-1 img:hover {
+        opacity: 0.5;
+        border-color: #f1f1f1;
+    }
+    /* service anh client */
+    .clientfull {
+        overflow: auto;
+        padding: 2% 9%;
+    }
+    .client {
+        float:left;
+        width:20%;
+    }
+/* bài Project */
+    .navbar-nav li .portfolio {
+        color: #72cb72 !important ;
+    }
+    .home-portfolio {
+        padding: 6% 15%;
+        background-color: #ebebeb;
+    }
+    /* portfolio */
+    .btnnn {
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    
+    .port-pic {
+        padding: 1%;
+    }
+    .port-pic img {
+        width: 100%;
+    }
+    .port-pic img:hover {
+        opacity: 0.5;
+    }
+
+/* Bài New */ 
+    .new-blog i {
+        color:#5cc35c;
+    }
+    .new-blog {
+        padding: 6% 15%;
+        background-color: #ebebeb;
+    }
+
+    /* New content */
+    .new-content {
+        padding: 5% 15%;
+    }
+    .new-content .abc {
+        margin-bottom:0;
+        padding-bottom:0;
+    }
+    .abc p {
+        margin-bottom:0;
+    }
+    .new-abc .abc a {
+        text-decoration: none;
+        color:#5cc35c;
+    }
+    /* Khối col-md-4 */
+    
+    .colnew button {
+        background-color: #f7f7f7;
+        
+    }
+    .colnew button:hover {
+        background-color: #5cc35c;
+        color:white;
+        transition: 0.5s;
+        
+    }
+    .colnew h3 {
+        
+        
+        text-transform : capitalize;
+        margin-bottom : 20px;
+        font-weight: 500;
+        position: relative;
+    }
+    .colnew h3::before {
+        content: '';
+        position : absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #5cc35c;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+
+    .colnew a {
+        text-decoration: none;
+        color: #636363;
+    }
+    .colnew a:hover {
+        color: #5cc35c;
+        transition: 0.3s;
+    }
+
+    .col2 p:first-child {
+        font-weight: bold;
+        
+    }
+    .col2 p {
+        margin-bottom:0;
+    }
+    .col2 {
+        margin-bottom: 5%;
+    }
+
+    .new1 {
+        margin-bottom: 10%;
+    }
+    .new1 h3 {
+        margin-bottom:13%;
+    }
+/* Bài page FAQs */
+    
+    #faq02 {
+        padding: 5% 15%;
+    }
+    #makA1, #hutaA1, #makA2, #hutaA2, #makA3, #hutaA3, #makA4, #hutaA4,
+    #makB1, #hutaB1, #makB2, #hutaB2, #makB3, #hutaB3, #makB4, #hutaB4 {
+        padding: 5px;                
+        border: solid 1px #ebebeb;
+    }
+
+    #hutaA1, #hutaA2, #hutaA3, #hutaA4, #hutaB1, #hutaB2, #hutaB3, #hutaB4 {
+        padding: 15px;
+        display: none;
+    }
+    .fa-minus {
+        display: none;
+    }
+
+    .oke {
+        margin-bottom: 2%;
+    }
+    #makA1:hover, #makA2:hover, #makA3:hover, #makA4:hover, #makB1:hover, #makB2:hover, #makB3:hover, #makB4:hover {
+        background-color:#5cc35c;
+        color: #fff;        
+    }
+    
+
+
+
+
+
+
+
+/* responsive */ 
+
+
+
+
+@media screen and (max-width: 560px) {
+/* navbar */
+    .navbar-brand span img {
+        font-size : 10px;
+    }
+
+/* footer */
+    .footer-col{
+        width: 100% !important;
+    }
+    .media i {
+        font-size: 25px !important;
+    
+    }
+    /* New lastest */
+    .footer-new img {
+        width: 50px;
+        height: 50px;
+    }
+    /* social media */
+    
+
+/* bài about */
+    /* Our Team */
+    .ourteam {
+        text-align: center;
+    }
+    /* Khối ảnh */
+    
+    /* khối ảnh project */
+    .aboutimg {
+
+        margin-bottom:3%;
+        width: 100%;
+    }
+    /* Khối Let's deliver */
+    .about-let h2 {
+        font-size: 15px;
+    }
+    .about-let button {
+        font-size: 10px;
+    }
+
+
+
+/* bài service */ 
+    .home-service {
+        text-align : center;
+    }
+    .clientfull {
+        display: none;
+    }
+
+
+
+
+/* bài project */
+    .home-portfolio {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
